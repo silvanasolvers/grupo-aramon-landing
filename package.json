@@ -1,0 +1,22 @@
+{
+  "name": "grupo-aramon-landing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "start": "vite preview --host 0.0.0.0 --port ${PORT:-3000}"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "framer-motion": "latest",
+    "gsap": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {}
+}
